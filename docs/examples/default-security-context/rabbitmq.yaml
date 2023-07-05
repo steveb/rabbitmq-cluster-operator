@@ -3,6 +3,7 @@ kind: RabbitmqCluster
 metadata:
   name: default-security-context
 spec:
+  image: rabbitmq:latest
   override:
     statefulSet:
       spec:
